@@ -25,7 +25,7 @@ print(final_greeting)
 
 # You can also give names to variables inside a formattable string:
 friend_name = "Rolf"
-goodbye = "Goodbye, {name}!"
+goodbye = f"Goodbye, {name}!"
 goodbye_rolf = goodbye.format(name=friend_name)
 print(goodbye_rolf)
 
